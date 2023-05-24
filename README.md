@@ -15,7 +15,6 @@ The data is published to the topic as a JSON string.
 Task 3 - Train a model in PySpark and Save:
 
 A classification model is trained in PySpark using the "AtRisk_academic" column as the target variable.
-The model developed in Lab 4 can be used for this task.
 The model is persisted by saving it, and then loaded for predicting on unseen data.
 The ML pipeline is utilized for all operations, including StringIndexer and VectorAssembler.
 
